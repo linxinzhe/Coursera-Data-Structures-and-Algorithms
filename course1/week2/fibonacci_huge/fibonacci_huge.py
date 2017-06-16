@@ -53,7 +53,7 @@ def get_fibonacci_huge(n, m):
 
 
 if __name__ == '__main__':
-    # input = sys.stdin.read()
-    # n, m = map(int, input.split())
-    n, m = 2816213588, 30524
+    input = sys.stdin.read()
+    n, m = map(int, input.split())
+    # n, m = 2816213588, 30524
     print(get_fibonacci_huge(n, m))
